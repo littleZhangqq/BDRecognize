@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-//1.0.7
+//1.0.0.0
 @interface AipRemindViewController : UIViewController
 
 @property (nonatomic, copy) void (^handler)(UIImage *img);
