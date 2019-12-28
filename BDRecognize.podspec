@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'BDRecognize/Classes/**/*.{h,m}'
   
   s.resource_bundles = {
-    'Recognizer' => ['BDRecognize/Assets/*']
+    'BDRecognize' => ['BDRecognize/Assets/*']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
