@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint BDRecognize.podspec' to ensure this is a
+# Be sure to run `pod lib lint Recognizer.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDRecognize'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BDRecognize.'
+  s.version          = '1.0.0'
+  s.summary          = 'A short description of Recognizer.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,25 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/892750407@qq.com/BDRecognize'
+  s.homepage         = 'https://github.com/littleZhangqq/BDRecognize.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '892750407@qq.com' => '[892750407@qq.com]' }
-  s.source           = { :git => 'https://github.com/892750407@qq.com/BDRecognize.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/littleZhangqq/BDRecognize.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'BDRecognize/Classes/**/*'
+  s.source_files = 'BDRecognize/Classes/**/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'BDRecognize' => ['BDRecognize/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'Recognizer' => ['BDRecognize/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.vendored_frameworks = 'BDRecognize/Classes/*.framework'
+
+
 end

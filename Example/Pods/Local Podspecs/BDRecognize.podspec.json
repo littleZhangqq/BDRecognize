@@ -1,0 +1,22 @@
+{
+  "name": "BDRecognize",
+  "version": "0.1.0",
+  "summary": "A short description of BDRecognize.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/892750407@qq.com/BDRecognize",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "892750407@qq.com": "[892750407@qq.com]"
+  },
+  "source": {
+    "git": "https://github.com/892750407@qq.com/BDRecognize.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BDRecognize/Classes/**/*"
+}
